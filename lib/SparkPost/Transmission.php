@@ -39,6 +39,7 @@ class Transmission extends APIResource
         'trackOpens' => 'options.open_tracking',
         'transactional' => 'options.transactional',
         'useDraftTemplate' => 'use_draft_template',
+		  'ipPool'	=> 'options.ip_pool'
     ];
 
     /**
@@ -84,7 +85,8 @@ class Transmission extends APIResource
      *  'trackClicks': boolean,
      *  'trackOpens': boolean,
      *  'transactional': boolean,
-     *  'useDraftTemplate': boolean
+     *  'useDraftTemplate': boolean,
+	  *  'ipPool'	=> 'options.ip_pool'
      *
      * @param array $transmissionConfig
      *
